@@ -13,6 +13,7 @@ describe Show do
     @fear_the_walking_dead = Show.create(:name => "Fear the Walking Dead", :day => "Sunday", :network => "AMC", :rating => 3)
   end
 
+
   describe "attributes" do
     it "has data attributes given to it from a migration file" do
     #TODO: You'll need to create a new migration to add
